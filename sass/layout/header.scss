@@ -111,8 +111,6 @@
 	}
 }
 
-/* Los NAV rojo y gris bajo el logo de la republica */
-.nav-1 {
 	@include listas (white, 12px);
 	background-color: $rojo;
     width: 72%;
