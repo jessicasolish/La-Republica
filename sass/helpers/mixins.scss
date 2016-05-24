@@ -1,3 +1,50 @@
+/* mixin columnistas */
+@mixin caja{
+	background-color: $color-2;
+	width: 280px;
+	height: 90px;
+	padding: 10px;
+}
+
+@mixin imagen{
+	height: 60px;
+	width: 60px;
+	border: 2px  $color-border;
+	float: left;
+	
+}
+
+@mixin caja1{
+	border: 1px solid $color-2;
+	padding: 10px;
+	margin:10px;
+}
+
+@mixin barra{
+	background-color: $color-boton;
+	padding: 10px;
+}
+
+@mixin lista{
+	display:inline;
+	text-decoration:none;
+	text-align:center;
+	font-size:15px;
+	color:white;
+	padding: 20px;
+}
+
+
+@mixin caja2{
+	background-color: $color-2;
+	width: 240px;
+	height: 100px;
+	padding-top: 20px;
+	border: 5px solid white;
+}
+
+/* mixin columnistas */
+
 @mixin repisa{
 	&:before , &:after{
 		content: " ";
@@ -88,6 +135,3 @@
 	padding-left: 10px;
 	width: 100%;
 }
-
-
-
